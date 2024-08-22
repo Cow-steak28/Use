@@ -9,38 +9,41 @@
     <title id="tab-title">Lockheed Enterprises</title>
     <link rel="stylesheet" href="/assets/styles/main.css?v=8" />
     <link rel="stylesheet" href="/assets/styles/global.css?v=8" />
-	
-	<script>
-	  if (window.location.hostname.startsWith('www.')) {
-		var nonWwwDomain = window.location.hostname.slice(4);
-		var newUrl = window.location.protocol + '//' + nonWwwDomain + window.location.pathname + window.location.search + window.location.hash;
-		window.location.replace(newUrl);
-	  }
-	</script>
-	
-	<!-- WG Universal adCode -->
-	<script type="text/javascript" async>
 
-	if (document && document.domain == "classroomcommunity.com")
-	{
-		! function(e, t) {
-			a = e.createElement("script"), m = e.getElementsByTagName("script")[0], a.async = 1, a.src = t, m.parentNode
-				.insertBefore(a, m)
-		}(document, "https://universal.wgplayer.com/tag/?lh=" + window.location.hostname + "&wp=" + window.location
-			.pathname + "&ws=" + window.location.search);
-	}
-	else
-	{
-		var link = document.createElement('link');
-		link.rel = "canonical";
-		link.href = "https://classroomcommunity.com/";
+    <script>
+      if (window.location.hostname.startsWith('www.')) {
+        var nonWwwDomain = window.location.hostname.slice(4);
+        var newUrl = window.location.protocol + '//' + nonWwwDomain + window.location.pathname + window.location.search + window.location.hash;
+        window.location.replace(newUrl);
+      }
+    </script>
+    
+    <!-- WG Universal adCode -->
+    <script type="text/javascript" async>
+      if (document && document.domain == "classroomcommunity.com") {
+        !function(e, t) {
+          var a = e.createElement("script"), m = e.getElementsByTagName("script")[0];
+          a.async = 1;
+          a.src = t;
+          m.parentNode.insertBefore(a, m);
+        }(document, "https://universal.wgplayer.com/tag/?lh=" + window.location.hostname + "&wp=" + window.location.pathname + "&ws=" + window.location.search);
+      } else {
+        var link = document.createElement('link');
+        link.rel = "canonical";
+        link.href = "https://classroomcommunity.com/";
+        document.getElementsByTagName('head')[0].appendChild(link);
+      }
+    </script>
 
-		document.getElementsByTagName('head')[0].appendChild(link);
-	}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGBLNFKP7Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NGBLNFKP7Z');
+    </script>
 
-	</script>
-
-	
   </head>
   <body class="center">
     <div class="fixed-nav-bar"></div>
@@ -61,55 +64,30 @@
     <script src="./assets/-/config.js?v=5-5-2024"></script>
     <script src="https://kit.fontawesome.com/1237c86ba0.js" crossorigin="anonymous"></script>
     <script src="/assets/scripts/m.js?v=52"></script>
-    <!-- DO NOT REMOVE-->
-    <!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XZP7NH2B8M"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
 
-	gtag('config', '<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NGBLNFKP7Z"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <div style="width: 55%; margin: auto; padding: 0 20px 20px 20px; background: rgb(0, 0, 0, .6); margin-top: 700px;">
+      <div class="about-section" style="color: #ffffff;">
+        <h2>ethics?</h2>
+        <p>i love games share this round</p>
+        <p>This website is powered by <a href="https://github.com/UseInterstellar/Interstellar" target="_blank" style="color: grey;">Interstellar code</a>, a project licensed under the GNU Affero General Public License (AGPL) Version 3, dated 19 November 2007. Our modifications and additional source code are available under the same license and can be accessed at <a href="https://github.com/lich2king/InterstellarTS" target="_blank" style="color: grey;">GitHub</a>.</p>
+      </div>
 
-  gtag('config', 'G-NGBLNFKP7Z');
-</script>
-');
-	<!-- DO NOT REMOVE
-	<div id="adv"></div>-->
+      <div id="disqus_thread" style="padding: 50px 2px 2px 2px;"></div>
+    </div>
 
-
-	<div style="width: 55%; margin: auto; padding: 0 20px 20px 20px; background: rgb(0, 0, 0, .6); margin-top: 700px;">
-		<div class="about-section" style="color: #ffffff;">
-			<h2> ethics?</h2></h2>
-			<p>i love games share this round</p>
-			<p>This website is powered by <a href="https://github.com/UseInterstellar/Interstellar" target="_blank" style="color: grey;">Interstellar code</a>, a project licensed under the GNU Affero General Public License (AGPL) Version 3, dated 19 November 2007. Our modifications and additional source code are available under the same license and can be accessed at <a href="https://github.com/lich2king/InterstellarTS" target="_blank" style="color: grey;">GitHub</a>.</p>
-		</div>
-
-		<div id="disqus_thread" style="padding: 50px 2px 2px 2px;"></div>
-	</div>
-
-	<script>
-		/**
-		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-		/*
-		var disqus_config = function () {
-		this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-		};
-		*/
-		(function() { // DON'T EDIT BELOW THIS LINE
-		var d = document, s = d.createElement('script');
-		s.src = 'https://classroom-com.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-		})();
-	</script>
-	<script id="dsq-count-scr" src="//classroom-com.disqus.com/count.js" async></script>
+    <script>
+      // Disqus configuration
+      var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://classroom-com.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <script id="dsq-count-scr" src="//classroom-com.disqus.com/count.js" async></script>
   </body>
 </html>
