@@ -75,7 +75,7 @@ if (nav) {
       <a class="navbar-link" href="/./as"><i class="fa-solid fa-envelope navbar-icon"></i><an>Ap</an><an>ps</an></a>
       <a class="navbar-link" href="/./ta"><i class="fa-solid fa-clone navbar-icon"></i><an>Ta</an><an>bs</an></a>
       <a class="navbar-link" href="/./st"><i class="fa-solid fa-wrench navbar-icon settings-icon"></i><an>Set</an><an>tings</an></a>
-      <a class="navbar-link" href="https://sites.google.com/site/unblockedgames77/" target="_blank"><i class="fa-solid fa-star navbar-icon premium-icon"></i><an>Pre</an><an>mium</an></a>
+      <a class="navbar-link" href="https://imgur.com/a/C17Xo97" target="_blank"><i class="fa-solid fa-star navbar-icon premium-icon"></i><an>Pre</an><an>mium</an></a>
     </div>`;
   nav.innerHTML = html;
 }
