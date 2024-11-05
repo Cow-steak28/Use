@@ -1,4 +1,4 @@
-wgplayer.com, WGA5619878567, DIRECT
+google.com, pub-5265373375955484, DIRECT, f08c47fec0942fa0
 
 #WG ADX
 wgplayer.com, Child seller ID, DIRECT
