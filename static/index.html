@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="/assets/styles/main.css?v=8" />
     <link rel="stylesheet" href="/assets/styles/global.css?v=8" />
 
+    <!-- AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
     <script>
       if (window.location.hostname.startsWith('www.')) {
         var nonWwwDomain = window.location.hostname.slice(4);
@@ -17,33 +23,8 @@
         window.location.replace(newUrl);
       }
     </script>
-    
-    <!-- WG Universal adCode -->
-    <script type="text/javascript" async>
-      if (document && document.domain == "classroomcommunity.com") {
-        !function(e, t) {
-          var a = e.createElement("script"), m = e.getElementsByTagName("script")[0];
-          a.async = 1;
-          a.src = t;
-          m.parentNode.insertBefore(a, m);
-        }(document, "https://universal.wgplayer.com/tag/?lh=" + window.location.hostname + "&wp=" + window.location.pathname + "&ws=" + window.location.search);
-      } else {
-        var link = document.createElement('link');
-        link.rel = "canonical";
-        link.href = "https://classroomcommunity.com/";
-        document.getElementsByTagName('head')[0].appendChild(link);
-      }
-    </script>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGBLNFKP7Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-VTE74LRCXB');
-    </script>
-
+    <!-- Other existing scripts and tags -->
   </head>
   <body class="center">
     <div class="fixed-nav-bar"></div>
@@ -58,6 +39,19 @@
         </div>
       </div>
     </div>
+
+    <!-- AdSense Box -->
+    <div style="float: right; width: 300px; margin: 20px;">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="5265373375955484"  <!-- Replace with your AdSense client ID -->
+           data-ad-slot="1234567890"                <!-- Replace with your Ad slot ID -->
+           data-ad-format="auto"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
     <script src="assets/scripts/i.js?v=38"></script>
     <script src="/assets/scripts/h.js?v=18"></script>
     <script src="./assets/-/bundle.js?v=5-5-2024"></script>
